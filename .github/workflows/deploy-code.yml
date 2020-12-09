@@ -1,9 +1,6 @@
 name: Deploy code
 
-on:
-    push:
-        branches:
-            - non-existing-branch
+on: ['repository_dispatch']
 
 jobs:
     deploy-code:
