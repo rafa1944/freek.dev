@@ -65,7 +65,7 @@ return [
     |
     */
 
-    'timezone' => 'Europe/Brussels',
+    'timezone' => 'Europe/Madrid',
 
     /*
     |--------------------------------------------------------------------------
@@ -91,7 +91,7 @@ return [
     |
     */
 
-    'fallback_locale' => 'en',
+    'fallback_locale' => 'es',
 
     /*
     |--------------------------------------------------------------------------
@@ -182,7 +182,7 @@ return [
         App\Providers\NavigationServiceProvider::class,
         App\Services\Twitter\TwitterServiceProvider::class,
         \App\Providers\ViewServiceProvider::class,
-        \Spatie\Mailcoach\MailcoachServiceProvider::class,
+        // \Spatie\Mailcoach\MailcoachServiceProvider::class,
         \App\Providers\BladeComponentServiceProvider::class,
         \App\Providers\LivewireServiceProvider::class,
     ],
